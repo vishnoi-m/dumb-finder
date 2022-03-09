@@ -1,0 +1,93 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 4%;
+  align-items: center;
+}
+
+.assessment-info {
+  padding-left: 10%;
+}
+.assessment-info .assessment-heading {
+  font-size: 60px;
+  color: var(--slate-grey);
+  font-family: "Poppins SemiBold";
+}
+
+.assessment-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.assessment-description p {
+  font-family: "Poppins Light";
+}
+
+.assessment-description p span {
+  color: var(--brown-text);
+  font-family: "Poppins Bold";
+}
+.assessment-option {
+  font-family: "Poppins Light";
+}
+
+.illustration-icon img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 90%;
+  object-fit: contain;
+}
+
+.illustration-icon img:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.assessment-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.assessment-input input {
+  width: 60%;
+  border: 2px solid var(--brown-text);
+  outline: none;
+  /* background-color: rgba(230, 230, 230, 0.6); */
+  background-color: rgba(222 179 118);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  /* margin-bottom: 22px; */
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.assessment-input input:focus {
+  border: 2px solid var(--slate-grey);
+  background-color: var(--brown-background);
+}
+
+.assessment-option .assessment-input button {
+  /* margin-top: 15px; */
+  padding: 9px;
+  outline: none;
+  width: 130px;
+  border: 2px solid var(--brown-text);
+  font-size: 17px;
+  border-radius: 19px;
+  background-color: var(--slate-grey);
+  color: white;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.assessment-option .assessment-input button:hover {
+  background-color: var(--brown-background);
+  color: var(--brown-text);
+  transition: all ease 0.4s;
+  border: 2px solid var(--slate-grey);
+}

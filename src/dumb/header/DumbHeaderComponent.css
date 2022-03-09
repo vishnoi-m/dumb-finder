@@ -1,0 +1,28 @@
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-content .logo {
+  color: var(--brown-text);
+  padding-top: 20px;
+  padding-left: 10%;
+  font-size: 35px;
+  font-family: "Poppins Bold";
+}
+
+.colz {
+  padding-right: 10%;
+}
+
+.colz .colz-icon i {
+  color: var(--brown-text);
+  padding: 30px;
+  padding-left: 30px;
+  font-size: 35px;
+}
+
+.colz .colz-icon i:hover {
+  transform: scale(1.5);
+}

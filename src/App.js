@@ -1,10 +1,11 @@
 import './App.css';
-import DumbComponent from './dumb/DumbComponent';
+import DumbContainer from './dumb/DumbContainer';
+import DumbHeaderComponent from './dumb/header/DumbHeaderComponent';
 
 function App() {
   return (
     <div className="App">
-      <DumbComponent/>
+      <DumbContainer/>
     </div>
   );
 }
