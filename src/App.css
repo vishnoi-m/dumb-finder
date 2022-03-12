@@ -1,7 +1,7 @@
-.dumb-container {
-  height: 100vh;
-  overflow: auto;
-  background-color: #daa864;
+.App {
+  /* height: 100vh;
+  overflow: auto; */
+  /* background-color: #daa864; */
 }
 :root {
   --brown-text: #583114;

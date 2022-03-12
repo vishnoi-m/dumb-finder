@@ -18,7 +18,8 @@
 
 .colz .colz-icon i {
   color: var(--brown-text);
-  padding: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
   padding-left: 30px;
   font-size: 35px;
 }
@@ -27,7 +28,19 @@
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 1030px) {
-  .colz {
+@media screen and (max-width: 1188px) {
+  .colz .colz-icon i {
+    margin-top: 4%;
+    padding-right: 0;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .colz .colz-icon i {
+    margin-top: 5%;
+    padding-right: 0;
+    padding-left: 20px;
+    font-size: 20px;
   }
 }
