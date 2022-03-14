@@ -90,7 +90,6 @@ export default function DumbSweetAlert(props) {
       btnSize="sm"
       success={props.buttonType === "Close" ? true : false}
       error={props.buttonType === "Error" ? true : false}
-      timeout={props.buttonType === "Close" ? 10000 : null}
       customButtons={
         buttons ? <React.Fragment>{buttons}</React.Fragment> : customButton()
       }
