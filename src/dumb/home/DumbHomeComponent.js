@@ -29,6 +29,7 @@ export default function DumbHomeComponent() {
 
   const handleConfirm = () => {
     setDumbAlert(false);
+    setKeepOnPopUp(false);
     setConfirmAlert(true);
   };
 
@@ -43,7 +44,6 @@ export default function DumbHomeComponent() {
 
   const handleNo = () => {
     setDumbAlert(false);
-    setKeepOnPopUp(false);
     setKeepOnPopUp(true);
   };
 
