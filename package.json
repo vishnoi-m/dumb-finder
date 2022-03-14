@@ -18,8 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "client": "npm start --prefix dumb-finder",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix dumb-finder && npm run build --prefix dumb-finder"
+    "client": "npm start --prefix dumb-finder"
   },
   "eslintConfig": {
     "extends": [
