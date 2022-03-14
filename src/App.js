@@ -1,6 +1,4 @@
 import "./App.css";
-// import DumbContainer from './dumb/DumbContainer';
-import DumbHeaderComponent from "./dumb/header/DumbHeaderComponent";
 import DumbHomeComponent from "./dumb/home/DumbHomeComponent";
 
 function App() {

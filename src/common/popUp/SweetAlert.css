@@ -1,0 +1,68 @@
+.info-button {
+  background-color: var(--slate-grey);
+  outline: none;
+  width: 40%;
+  font-size: 17px;
+  border-radius: 19px;
+  color: white;
+  padding: 7px;
+  border: 2px solid var(--brown-text);
+}
+
+.confirm-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.confirm-button-container .no-button {
+  background-color: var(--slate-grey);
+  outline: none;
+  width: 100px;
+  font-size: 17px;
+  border-radius: 19px;
+  color: white;
+  padding: 7px;
+  border: 2px solid var(--brown-text);
+}
+
+.confirm-button {
+  background-color: var(--slate-grey);
+  outline: none;
+  width: 20%;
+  font-size: 17px;
+  border-radius: 19px;
+  color: white;
+  padding: 7px;
+  border: 2px solid var(--brown-text);
+}
+
+.confirm-button-container .yes-button {
+  background-color: white;
+  outline: none;
+  width: 100px;
+  font-size: 17px;
+  border-radius: 19px;
+  color: var(--slate-grey);
+  padding: 7px;
+  border: 2px solid var(--slate-grey);
+}
+
+.confirm-button-container .no-button:hover {
+  background-color: white;
+  color: var(--slate-grey);
+  border: 2px solid var(--slate-grey);
+}
+
+.confirm-button-container .no .no-button:hover + .yes .yes-button {
+  background-color: var(--slate-grey);
+  color: white;
+  border: 2px solid var(--brown-text);
+}
+
+.info-button:hover {
+  background-color: white;
+  color: var(--slate-grey);
+  border: 2px solid var(--slate-grey);
+}

@@ -3,14 +3,12 @@
   flex-direction: column;
   height: 100%;
   margin: 0;
-  /* background-color: #daa864; */
 }
 .home-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 4%;
-  /* height: 80%; */
   align-items: center;
   margin: 0 auto;
 }
@@ -25,11 +23,8 @@
 }
 .assessment-info .assessment-heading {
   font-size: 6vh;
-  /* font-size: 60px; */
   color: var(--slate-grey);
   font-family: "Poppins SemiBold";
-  /* align-self: flex-start; */
-  /* text-size-adjust: auto; */
 }
 
 .assessment-description {
@@ -57,7 +52,6 @@
   justify-content: center;
 }
 .illustration-icon img {
-  /* max-height: 100%; */
   height: 100%;
   max-width: 90%;
   object-fit: contain;
@@ -81,23 +75,19 @@
   border: 2px solid var(--brown-text);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
-  /* background-color: rgba(222 179 118); */
   background-color: rgba(230, 230, 230, 0.6);
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
-  /* margin-bottom: 22px; */
   border-radius: 10px;
   transition: 0.3s;
 }
 
 .assessment-input input:focus {
   border: 2px solid var(--slate-grey);
-  /* background-color: var(--brown-background); */
   background-color: var(--white);
 }
 
 .assessment-option .assessment-input button {
-  /* margin-top: 15px; */
   padding: 9px;
   outline: none;
   width: 30%;
@@ -106,12 +96,9 @@
   border-radius: 19px;
   background-color: var(--slate-grey);
   color: white;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 .assessment-option .assessment-input button:hover {
-  /* background-color: var(--brown-background); */
   background-color: var(--white);
   color: var(--brown-text);
   transition: all ease 0.4s;
