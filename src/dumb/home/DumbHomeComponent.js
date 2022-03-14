@@ -43,6 +43,7 @@ export default function DumbHomeComponent() {
 
   const handleNo = () => {
     setDumbAlert(false);
+    setKeepOnPopUp(false);
     setKeepOnPopUp(true);
   };
 
